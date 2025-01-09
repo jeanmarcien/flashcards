@@ -78,4 +78,39 @@ method_name(arguments)
 ```ruby
 age = 17  
 puts "You are #{age} years old"  
+```
+---
 
+## Flashcard 8  
+**Question:**  
+- How do you create and manipulate arrays?
+
+**Answer:**  
+- Create: `%w[Huey Dewey Louie]` → `["Huey", "Dewey", "Louie"]`  
+- Sort: `[3, 1, 2].sort` → `[1, 2, 3]`  
+- Size: `['a', 'b'].size` → `2`  
+
+---
+
+## Flashcard 9  
+**Question:**  
+- How do ranges work in Ruby?
+
+**Answer:**  
+- Inclusive: `(1..5).to_a` → `[1, 2, 3, 4, 5]`  
+- Exclusive: `(1...5).to_a` → `[1, 2, 3, 4]`  
+
+---
+
+## Flashcard 10  
+**Question:**  
+- What’s the return convention in Ruby methods?
+
+**Answer:**  
+- A method returns the last statement executed:  
+
+```ruby
+def add(x, y)  
+  x + y  
+end  
+```
