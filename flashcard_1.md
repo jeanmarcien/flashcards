@@ -45,3 +45,37 @@ def method_name(parameters)
 end  
 
 method_name(arguments)
+
+---
+
+## Flashcard 5  
+**Question:**  
+- What’s the difference between a method ending in `?` and one ending in `!`?
+
+**Answer:**  
+- `?` → Returns true or false.  
+- `!` → Destructive or dangerous operation.  
+
+---
+
+## Flashcard 6  
+**Question:**  
+- How do you convert between types in Ruby?
+
+**Answer:**  
+- To Integer: `'1984'.to_i` → `1984`  
+- To String: `1984.to_s` → `"1984"`  
+
+---
+
+## Flashcard 7  
+**Question:**  
+- What is the purpose of variables in Ruby?
+
+**Answer:**  
+- To store values for reuse:  
+
+```ruby
+age = 17  
+puts "You are #{age} years old"  
+
