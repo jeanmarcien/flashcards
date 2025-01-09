@@ -45,7 +45,7 @@ def method_name(parameters)
 end  
 
 method_name(arguments)
-
+```
 ---
 
 ## Flashcard 5  
