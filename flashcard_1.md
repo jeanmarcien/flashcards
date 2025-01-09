@@ -1,9 +1,9 @@
 # Ruby Flashcards
 
 ## Flashcard 1  
-**Question**<br>
+**Question:**<br>
 How do you launch the Ruby interactive shell and run a Ruby file?  
-**Answer**  
+**Answer:**  
 - Launch IRB: `irb`  
 - Run a file: `ruby path/to/your/file.rb`  
 
