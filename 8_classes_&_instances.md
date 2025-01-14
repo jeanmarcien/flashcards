@@ -40,10 +40,10 @@ end
 
 ## Flashcard 5
 **Q:**
-What is the initialize method in Ruby, and when is it called?
+- What is the initialize method in Ruby, and when is it called?
 
 **A:**
-It is called automatically when creating a new instance using ClassName.new.
+- It is called automatically when creating a new instance using ClassName.new.
 ```ruby
 class Car  
   def initialize(color)  
@@ -54,10 +54,10 @@ end
 
 ## Flashcard 6
 **Q:**
-How do you define and access instance variables in Ruby?
+- How do you define and access instance variables in Ruby?
 
 **A:**
-Use @ to define instance variables, and methods to access them:
+- Use @ to define instance variables, and methods to access them:
 ```ruby
 class Car  
   def initialize(color)  
@@ -72,7 +72,7 @@ end
 
 ## Flashcard 7
 **Q:**
-What are attr_reader, attr_writer, and attr_accessor in Ruby?
+- What are attr_reader, attr_writer, and attr_accessor in Ruby?
 
 **A:**
 attr_reader: Creates a getter.
@@ -86,11 +86,11 @@ end
 
 ## Flashcard 8
 **Q:**
-What is the difference between public and private methods in Ruby?
+- What is the difference between public and private methods in Ruby?
 
 **A:**
-Public: Accessible from outside the class.
-Private: Only accessible within the class.
+- Public: Accessible from outside the class.
+- Private: Only accessible within the class.
 ```ruby
 class Car  
   def start_engine  
@@ -107,10 +107,10 @@ end
 
 ## Flashcard 9
 **Q:**
-How do you instantiate objects from a class in Ruby?
+- How do you instantiate objects from a class in Ruby?
 
 **A:**
-Use the .new method:
+- Use the .new method:
 ```ruby
 my_car = Car.new("red")  
 puts my_car.color #=> "red"
@@ -118,10 +118,10 @@ puts my_car.color #=> "red"
  
 ## Flashcard 10
 **Q:**
-What is OOP in Ruby summarized in key points?
+- What is OOP in Ruby summarized in key points?
 
 **A:**
-Everything in Ruby is an object.
-Objects are instances of classes.
-Instance variables store state.
-Instance methods define behavior.
+- Everything in Ruby is an object.
+- Objects are instances of classes.
+- Instance variables store state.
+- Instance methods define behavior.
