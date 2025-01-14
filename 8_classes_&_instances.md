@@ -17,4 +17,4 @@ binding.pry # Pauses the program for debugging
 
 **A:**  
 - A paradigm that organizes code into objects combining data (state) and methods (behavior).
-Example: String.new("Hello") creates an object with state "Hello" and methods like .upcase.
+- Example: String.new("Hello") creates an object with state "Hello" and methods like .upcase.
