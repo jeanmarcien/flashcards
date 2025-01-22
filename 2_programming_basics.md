@@ -1,6 +1,6 @@
 # Flashcards: Programming Basics
 
-## **Flashcard 1**  
+## Flashcard 1
 **Q:** How do you launch the Ruby interactive shell and run a Ruby file?  
 **A:**  
 - Launch IRB: `irb`  
@@ -8,7 +8,7 @@
 
 ---
 
-## **Flashcard 2**  
+## Flashcard 2  
 **Q:** What are some common Ruby object classes?  
 **A:**  
 - `"Hello".class` → `String`  
@@ -18,13 +18,13 @@
 
 ---
 
-## **Flashcard 3**  
+## Flashcard 3  
 **Q:** How does string interpolation work in Ruby?  
 **A:** Use double quotes: `"two: #{1 + 1}"` → `"two: 2"`.  
 
 ---
 
-## **Flashcard 4**  
+## Flashcard 4
 **Q:** How do you define and call a method in Ruby?  
 **A:**  
 ```ruby
@@ -37,7 +37,7 @@ method_name(arguments)
 
 ---
 
-## **Flashcard 5**  
+## Flashcard 5  
 **Q:** What’s the difference between a method ending in `?` and one ending in `!`?  
 **A:**  
 - `?` → Returns `true` or `false`.  
@@ -45,7 +45,7 @@ method_name(arguments)
 
 ---
 
-## **Flashcard 6**  
+## Flashcard 6
 **Q:** How do you convert between types in Ruby?  
 **A:**  
 - To Integer: `'1984'.to_i` → `1984`  
@@ -53,7 +53,7 @@ method_name(arguments)
 
 ---
 
-## **Flashcard 7**  
+## Flashcard 7  
 **Q:** What is the purpose of variables in Ruby?  
 **A:** To store values for reuse:  
 ```ruby
@@ -63,7 +63,7 @@ puts "You are #{age} years old"
 
 ---
 
-## **Flashcard 8**  
+## Flashcard 8
 **Q:** How do you create and manipulate arrays?  
 **A:**  
 - Create: `%w[Huey Dewey Louie]` → `["Huey", "Dewey", "Louie"]`  
@@ -72,7 +72,7 @@ puts "You are #{age} years old"
 
 ---
 
-## **Flashcard 9**  
+## Flashcard 9  
 **Q:** How do ranges work in Ruby?  
 **A:**  
 - Inclusive: `(1..5).to_a` → `[1, 2, 3, 4, 5]`  
@@ -80,7 +80,7 @@ puts "You are #{age} years old"
 
 ---
 
-## **Flashcard 10**  
+## Flashcard 10  
 **Q:** What’s the return convention in Ruby methods?  
 **A:** A method returns the last statement executed:  
 ```ruby
@@ -88,5 +88,3 @@ def add(x, y)
   x + y  
 end  
 ```
-
----
