@@ -5,7 +5,7 @@
 - How do I check my current directory?
 
 **A:**
-- Use the ***pwd*** command. It prints the path of your current directory.
+- Use the `pwd` command. It prints the path of your current directory.
   ```bash
   pwd
   ```
@@ -16,7 +16,7 @@
 - How do I list files in my current directory?
 
 **A:**
-- Use the ***ls*** command. Add ***-lh*** for detailed information
+- Use the `ls` command. Add `-lh` for detailed information
   ```bash
   ls
   ls -lh
@@ -28,11 +28,11 @@
 - How do I move between directories?
 
 **A:**
-- Use the ***cd*** command to go into a folder:
+- Use the `cd` command to go into a folder:
   ```bash
   cd <FOLDER_NAME>
   ```
-- Use the ***cd*** command to go up one evel:
+- Use the `cd` command to go up one evel:
   ```bash
   cd ..
   ```
@@ -58,11 +58,11 @@
 - How do I view the content of a text file?
 
 **A:**  
-- Use the ***cat*** command:
+- Use the `cat` command:
   ```bash
   cat <FILE_NAME>
   ```
-- Tip: Use ***code .*** to open the current folder in your text editor.
+- Tip: Use `code .` to open the current folder in your text editor.
 ---
 
 ## Flashcard 6 
@@ -70,11 +70,11 @@
 - How do I move or rename files?
 
 **A:**  
-- Use the ***mv*** command to move a file:
+- Use the `mv` command to move a file:
 ```bash
 mv <FILE_NAME> <FOLDER_NAME>
 ```
-- Use the ***mv*** command to rename a file:
+- Use the `mv` command to rename a file:
 ```bash
 mv <FILE_NAME> <NEW_FILENAME>
 ```
@@ -100,7 +100,7 @@ mv <FILE_NAME> <NEW_FILENAME>
 - How do I check the current state of my repository?
 
 **A:**  
-- Use ***git status*** to see changes, staged files, and untracked files.
+- Use `git status` to see changes, staged files, and untracked files.
   ```bash
   git status
   ```
@@ -126,7 +126,7 @@ mv <FILE_NAME> <NEW_FILENAME>
 - How do I push changes to GitHub?
 
 **A:**
-- Ensure your repository is connected to GitHub and use ***git push***:
+- Ensure your repository is connected to GitHub and use `git push`:
   ```bash
   git push origin master
   ```
