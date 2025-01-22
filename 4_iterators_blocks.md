@@ -6,7 +6,7 @@
 
 **A:**  
 - Create: `musicians = ['David Gilmour', 'Roger Waters', 'Richard Wright', 'Nick Mason']`
-- Size: `musicians.size → 4`
+- Size: `musicians.size` → `4`
 - Access: `musicians[1]` → "Roger Waters"
 - Add: `musicians << 'Syd Barrett'`
 ---
