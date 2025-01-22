@@ -1,4 +1,4 @@
-# Ruby Flashcards
+# Flashcards: Ruby & Github
 
 ## Flashcard 1
 **Q:**
