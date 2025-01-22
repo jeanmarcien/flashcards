@@ -57,12 +57,25 @@ end
 
 ## Flashcard 5  
 **Q:**  
-- How do you loop with while and until in Ruby?
+- How do you loop with *while* and *until* in Ruby?
 
 **A:**  
-- while condition: Loops while the condition is truthy.
-- until condition: Loops until the condition becomes truthy.
-
+- while Loop: Loops while the condition is truthy.
+  ```ruby
+  counter = 0
+  while counter < 5
+    puts counter
+    counter += 1
+  end
+  ```
+- until Loop: Loops until the condition becomes truthy.
+  ```ruby
+  counter = 0
+  until counter == 5
+    puts counter
+    counter += 1
+  end
+  ```
 ---
 
 ## Flashcard 6  
