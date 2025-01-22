@@ -113,8 +113,9 @@ end
 - Use the .new method:
 ```ruby
 my_car = Car.new("red")  
-puts my_car.color #=> "red"
+puts my_car.color 
 ```
+→ `red`
  
 ## Flashcard 10
 **Q:**
