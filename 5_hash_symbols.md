@@ -27,7 +27,7 @@
   ```ruby
     students_age = { "Peter" => 24, "Mary" => 25 }
   ```
-  Easier to access: ***students_age["Peter"] => 24
+  Easier to access: ***students_age["Peter"]*** => 24
 ---
 
 ## Flashcard 3  
@@ -72,52 +72,68 @@ paris["population"]  # => 2211000
 - What are some useful methods for hashes in Ruby?
 
 **A:**  
-- Check key: ***paris.key?("country")*** → ***true***
-- List keys: ***paris.keys*** → ***["country", "population"]***
-- List values: ***paris.values*** → ***["France", 2211000]***
+- Check key: ***paris.key?("country")*** => ***true***
+- List keys: ***paris.keys*** => ***["country", "population"]***
+- List values: ***paris.values*** => ***["France", 2211000]***
 
 ---
 
 ## Flashcard 7  
 **Q:**  
-- How do you iterate over an array using ***each***?
+- When should you use symbols instead of strings in Ruby?
 
 **A:**  
-```ruby
-array.each do |element|
-  # code for each element
-end
-```
-
+- Use strings for data: ***"Sebastien Saunier"***, ***"ruby on Rails".***
+- Use symbols for identifiers: ***:fullname***, ***:email***.
+- Symbols are more memory-efficient for keys in hashes:
+  ```ruby
+    paris = { country: "France", population: 2211000 }
+    paris[:population]  # => 2211000
+  ```
 ---
 
 ## Flashcard 8  
 **Q:**  
-- How do you iterate over an array using each?
+- How do hashes differ from arrays in Ruby?
 
 **A:**  
-- Append: ***array << "element"***
-- Delete by value: ***array.delete("value")***
-- Delete by index: ***array.delete_at(index)***
-- Query size: ***array.size*** or ***array.count***
-
+- Arrays are indexed by integers: ***cities[0] → "London"***.
+- Hashes are indexed by keys: ***city["name"] → "Paris"***.
+- Example for readability:
+  ```ruby
+    cities = { "Paris" => { "country" => "France", "monument" => "Tour Eiffel" } }
+    cities["Paris"]["monument"]  # => "Tour Eiffel"
+  ```
 ---
 
 ## Flashcard 9  
 **Q:**  
-- What is an inline condition?
+- What is special about using a hash as the last method argument in Ruby?
 
 **A:**  
-```ruby
-do_something if condition  
-do_something unless condition  
-```
+- Omit curly braces:
+  ```ruby
+    tag("a", "Le Wagon", href: "http://lewagon.org", class: "btn")
+  ```
+- Equivalent to:
+  ```ruby
+    tag("a", "Le Wagon", { href: "http://lewagon.org", class: "btn" })
+  ```
 ---
 
 ## Flashcard 10  
 **Q:**  
-- How do you access and modify elements in an array?
+- How can you use hashes for dynamic HTML generation in Ruby?
 
-**A:**  
-- Access: ***array[index]***
-- Modify: ***array[index] = new_value***
+**A:**
+- Example method:
+  ```ruby
+  def tag(name, content, attrs = {})
+    flat_attrs = attrs.map { |key, val| " #{key}=\"#{val}\"" }.join
+    "<#{name}#{flat_attrs}>#{content}</#{name}>"
+  end
+  ```
+- Call:
+  ```ruby
+  tag("h1", "Hello", class: "bold")
+  ```
