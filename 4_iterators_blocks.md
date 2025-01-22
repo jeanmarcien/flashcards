@@ -88,11 +88,11 @@ end
   ```ruby
   musicians.select { |musician| musician.start_with?('R') }
   ```
-  ***=> => ['Roger Waters', 'Richard Wright']***
-  - Count (count):
-    ```ruby
-    musicians.count { |musician| musician.start_with?('R') }
-    ```
+  ***=> ['Roger Waters', 'Richard Wright']***
+- Count (count):
+  ```ruby
+  musicians.count { |musician| musician.start_with?('R') }
+  ```
 ---
 
 ## Flashcard 8  
