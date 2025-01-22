@@ -10,95 +10,111 @@ if condition
   # code when condition is truthy
 end
 ```
-
 ---
 
-## Flashcard 2
+## Flashcard 2  
 **Q:**  
 - What is the Ruby ternary operator?
 
-**A:**
+**A:**  
 ```ruby
 condition ? code_when_truthy : code_when_falsey
 ```
-
 ---
 
-## Flashcard 3
+## Flashcard 3  
 **Q:**  
 - How do if/elsif/else statements work?
 
 **A:**  
-- Launch IRB: `irb`  
-- Run a file: `ruby path/to/your/file.rb`  
-
+```ruby
+if condition
+  # executed if condition is truthy
+elsif another_condition
+  # executed if first condition is false and this is truthy
+else
+  # executed if all conditions are false
+end
+```
 ---
-## Flashcard 1  
+
+## Flashcard 4  
 **Q:**  
-- How do you launch the Ruby interactive shell and run a Ruby file?
+- How do case/when statements work in Ruby?
 
 **A:**  
-- Launch IRB: `irb`  
-- Run a file: `ruby path/to/your/file.rb`  
-
+```ruby
+case variable
+when value1
+  # code for value1
+when value2
+  # code for value2
+else
+  # code for other values
+end
+```
 ---
 
-## Flashcard 1  
+## Flashcard 5  
 **Q:**  
-- How do you launch the Ruby interactive shell and run a Ruby file?
+- How do you loop with while and until in Ruby?
 
 **A:**  
-- Launch IRB: `irb`  
-- Run a file: `ruby path/to/your/file.rb`  
+- while condition: Loops while the condition is truthy.
+- until condition: Loops until the condition becomes truthy.
 
 ---
 
-## Flashcard 1  
+## Flashcard 6  
 **Q:**  
-- How do you launch the Ruby interactive shell and run a Ruby file?
+- How do logical operators && and || work?
 
 **A:**  
-- Launch IRB: `irb`  
-- Run a file: `ruby path/to/your/file.rb`  
+- && (AND): Both conditions must be true.
+- || (OR): At least one condition must be true.
 
 ---
 
-## Flashcard 1  
+## Flashcard 7  
 **Q:**  
-- How do you launch the Ruby interactive shell and run a Ruby file?
+- How do you iterate over an array using each?
 
 **A:**  
-- Launch IRB: `irb`  
-- Run a file: `ruby path/to/your/file.rb`  
+```ruby
+array.each do |element|
+  # code for each element
+end
+```
 
 ---
 
-## Flashcard 1  
+## Flashcard 8  
 **Q:**  
-- How do you launch the Ruby interactive shell and run a Ruby file?
+- How do you iterate over an array using each?
 
 **A:**  
-- Launch IRB: `irb`  
-- Run a file: `ruby path/to/your/file.rb`  
+- Append: array << "element"
+- Delete by value: array.delete("value")
+- Delete by index: array.delete_at(index)
+- Query size: array.size or array.count
 
 ---
 
-## Flashcard 1  
+## Flashcard 9  
 **Q:**  
-- How do you launch the Ruby interactive shell and run a Ruby file?
+- What is an inline condition?
 
 **A:**  
-- Launch IRB: `irb`  
-- Run a file: `ruby path/to/your/file.rb`  
-
+```ruby
+do_something if condition  
+do_something unless condition  
+```
 ---
 
-## Flashcard 1  
+## Flashcard 10  
 **Q:**  
-- How do you launch the Ruby interactive shell and run a Ruby file?
+- How do you access and modify elements in an array?
 
 **A:**  
-- Launch IRB: `irb`  
-- Run a file: `ruby path/to/your/file.rb`  
-
----
+- Access: array[index]
+- Modify: array[index] = new_value
