@@ -27,7 +27,7 @@
   ```ruby
     students_age = { "Peter" => 24, "Mary" => 25 }
   ```
-  Easier to access: ***students_age["Peter"]*** => 24
+  Easier to access: ***students_age["Peter"]*** → 24
 ---
 
 ## Flashcard 3  
@@ -37,8 +37,8 @@
 **A:**  
 ```ruby
 paris = { "country" => "France", "population" => 2211000 }
-paris["country"]  # => "France"
-paris["population"]  # => 2211000
+paris["country"]  # → "France"
+paris["population"]  # → 2211000
 ```
 ---
 
@@ -72,9 +72,9 @@ paris["population"]  # => 2211000
 - What are some useful methods for hashes in Ruby?
 
 **A:**  
-- Check key: ***paris.key?("country")*** => ***true***
-- List keys: ***paris.keys*** => ***["country", "population"]***
-- List values: ***paris.values*** => ***["France", 2211000]***
+- Check key: ***paris.key?("country")*** → ***true***
+- List keys: ***paris.keys*** → ***["country", "population"]***
+- List values: ***paris.values*** → ***["France", 2211000]***
 
 ---
 
@@ -102,7 +102,7 @@ paris["population"]  # => 2211000
 - Example for readability:
   ```ruby
     cities = { "Paris" => { "country" => "France", "monument" => "Tour Eiffel" } }
-    cities["Paris"]["monument"]  # => "Tour Eiffel"
+    cities["Paris"]["monument"]  # → "Tour Eiffel"
   ```
 ---
 
