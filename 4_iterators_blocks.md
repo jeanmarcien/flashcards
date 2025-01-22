@@ -5,10 +5,10 @@
 - How do you interact with arrays in Ruby?
 
 **A:**  
-- Create: ***musicians = ['David Gilmour', 'Roger Waters', 'Richard Wright', 'Nick Mason']***
-- Size: ***musicians.size => 4***
-- Access: ***musicians[1]*** => "Roger Waters"
-- Add: ***musicians << 'Syd Barrett'***
+- Create: `musicians = ['David Gilmour', 'Roger Waters', 'Richard Wright', 'Nick Mason']`
+- Size: `musicians.size → 4`
+- Access: `musicians[1]` → "Roger Waters"
+- Add: `musicians << 'Syd Barrett'`
 ---
 
 ## Flashcard 2  
@@ -16,9 +16,9 @@
 - What are ranges in Ruby and how do they differ?
 
 **A:**  
-- Inclusive: ***0..10*** includes 10.
-- Exclusive: ***0...10*** excludes 10.
-- Convert to array: ***(0..10).to_a*** => ***[0, 1, ..., 10]***
+- Inclusive: `0..10` includes 10.
+- Exclusive: `0...10` excludes 10.
+- Convert to array: `(0..10).to_a` → `[0, 1, ..., 10]`
 ---
 
 ## Flashcard 3  
@@ -42,7 +42,7 @@
 
 ## Flashcard 4  
 **Q:**  
-- How does the ***each*** iterator work in Ruby?
+- How does the `each` iterator work in Ruby?
 
 **A:**  
 ```ruby
@@ -54,7 +54,7 @@ end
 
 ## Flashcard 5  
 **Q:**  
-- How does ***each_with_index*** work in Ruby?
+- How does `each_with_index` work in Ruby?
 
 **A:**  
   ```ruby
@@ -66,7 +66,7 @@ end
 
 ## Flashcard 6  
 **Q:**  
-- What does the ***map*** method do in Ruby?
+- What does the `map` method do in Ruby?
 
 **A:**  
 - Uppercase names:
@@ -81,18 +81,19 @@ end
 
 ## Flashcard 7  
 **Q:**  
-- How do ***select*** and ***count*** work in Ruby?
+- How do `select` and `count` work in Ruby?
 
 **A:**
-- Filter (***select***):
+- Filter (`select`):
   ```ruby
   musicians.select { |musician| musician.start_with?('R') }
   ```
-  ***=> ['Roger Waters', 'Richard Wright']***
+  →` ['Roger Waters', 'Richard Wright']`
 - Count (count):
   ```ruby
   musicians.count { |musician| musician.start_with?('R') }
   ```
+  →`2`
 ---
 
 ## Flashcard 8  
@@ -115,7 +116,7 @@ end
 
 ## Flashcard 9  
 **Q:**  
-- How does ***yield*** work in Ruby? Example:
+- How does `yield` work in Ruby? Example:
 
 **A:**  
 ```ruby
@@ -133,11 +134,11 @@ timer { sleep(2) }
 - How can you define custom iterators in Ruby?
 
 **A:**  
-- Recreate ***.times***:
+- Recreate `.times`:
   ```ruby
   def repeat(number_of_times)
     (1..number_of_times).each { |i| yield(i) }
   end
   repeat(3) { |i| puts "Iteration #{i}" }
   ```
-  ***=> Iteration 1, Iteration 2, Iteration 3***
+  →` Iteration 1, Iteration 2, Iteration 3`
