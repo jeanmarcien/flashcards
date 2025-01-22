@@ -161,7 +161,4 @@
   ```  
 - **Tips**: Use a browser's "Inspect" feature to find CSS selectors.  
   
-    <instrument>Guitar</instrument>  
-  </beatle>  
-  ```
 ---
