@@ -1,4 +1,4 @@
-# Ruby Flashcards
+# Flashcards: Hash & Symbols
 
 ## Flashcard 1  
 **Q:**  
