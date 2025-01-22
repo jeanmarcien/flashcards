@@ -5,11 +5,11 @@
 - What are the primary data types in Ruby?
 
 **A:**  
-- ***42*** → Integer
-- ***1.25*** → Float
-- ***true*** → Boolean
-- ***"hello world"*** → String
-- ***[ "a", "e", "i", "o", "u" ]*** → Array
+- `42` → Integer
+- `1.25` → Float
+- `true` → Boolean
+- `"hello world"` → String
+- `[ "a", "e", "i", "o", "u" ]` → Array
 ---
 
 ## Flashcard 2  
@@ -27,7 +27,7 @@
   ```ruby
     students_age = { "Peter" => 24, "Mary" => 25 }
   ```
-  Easier to access: ***students_age["Peter"]*** → 24
+  Easier to access: `students_age["Peter"]` → 24
 ---
 
 ## Flashcard 3  
@@ -47,9 +47,9 @@ paris["population"]  # → 2211000
 - How do you add, update, and delete key-value pairs in a hash?
 
 **A:**  
-- Add: ***paris["star_monument"] = "Tour Eiffel"***
-- Update: ***paris["population"] = 2211001***
-- Delete: ***paris.delete("star_monument")***
+- Add: `paris["star_monument"] = "Tour Eiffel"`
+- Update: `paris["population"] = 2211001`
+- Delete: `paris.delete("star_monument")`
 ---
 
 ## Flashcard 5  
@@ -63,8 +63,8 @@ paris["population"]  # → 2211000
   end
   ```
   Outputs:
-  ***Paris country is France***
-  ***Paris population is 2211000***
+  `Paris country is France`
+  `Paris population is 2211000`
 ---
 
 ## Flashcard 6  
@@ -72,9 +72,9 @@ paris["population"]  # → 2211000
 - What are some useful methods for hashes in Ruby?
 
 **A:**  
-- Check key: ***paris.key?("country")*** → ***true***
-- List keys: ***paris.keys*** → ***["country", "population"]***
-- List values: ***paris.values*** → ***["France", 2211000]***
+- Check key: `paris.key?("country")` → `true`
+- List keys: `paris.keys` → `["country", "population"]`
+- List values: `paris.values` → `["France", 2211000]`
 
 ---
 
@@ -83,12 +83,12 @@ paris["population"]  # → 2211000
 - When should you use symbols instead of strings in Ruby?
 
 **A:**  
-- Use strings for data: ***"Sebastien Saunier"***, ***"ruby on Rails".***
-- Use symbols for identifiers: ***:fullname***, ***:email***.
+- Use strings for data: `"Sebastien Saunier"`, `"ruby on Rails".`
+- Use symbols for identifiers: `:fullname`, `:email`.
 - Symbols are more memory-efficient for keys in hashes:
   ```ruby
     paris = { country: "France", population: 2211000 }
-    paris[:population]  # => 2211000
+    paris[:population]  # → 2211000
   ```
 ---
 
@@ -97,8 +97,8 @@ paris["population"]  # → 2211000
 - How do hashes differ from arrays in Ruby?
 
 **A:**  
-- Arrays are indexed by integers: ***cities[0] → "London"***.
-- Hashes are indexed by keys: ***city["name"] → "Paris"***.
+- Arrays are indexed by integers: `cities[0] → "London"`.
+- Hashes are indexed by keys: `city["name"] → "Paris"`.
 - Example for readability:
   ```ruby
     cities = { "Paris" => { "country" => "France", "monument" => "Tour Eiffel" } }
