@@ -57,7 +57,7 @@ end
 
 ## Flashcard 5  
 **Q:**  
-- How do you loop with *while* and *until* in Ruby?
+- How do you loop with ***while*** and *until* in Ruby?
 
 **A:**  
 - while Loop: Loops while the condition is truthy.
