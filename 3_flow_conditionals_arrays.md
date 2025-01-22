@@ -2,7 +2,7 @@
 
 ## Flashcard 1  
 **Q:**  
-- How do you structure a basic if statement in Ruby?
+- How do you structure a basic ***if*** statement in Ruby?
 
 **A:**  
 ```ruby
@@ -10,6 +10,7 @@ if condition
   # code when condition is truthy
 end
 ```
+- Truthy means anything except ***false*** or ***nil***.
 ---
 
 ## Flashcard 2  
@@ -24,7 +25,7 @@ condition ? code_when_truthy : code_when_falsey
 
 ## Flashcard 3  
 **Q:**  
-- How do if/elsif/else statements work?
+- How do ***if/elsif/else*** statements work?
 
 **A:**  
 ```ruby
@@ -40,7 +41,7 @@ end
 
 ## Flashcard 4  
 **Q:**  
-- How do case/when statements work in Ruby?
+- How do ***case/when*** statements work in Ruby?
 
 **A:**  
 ```ruby
@@ -57,10 +58,10 @@ end
 
 ## Flashcard 5  
 **Q:**  
-- How do you loop with ***while*** and *until* in Ruby?
+- How do you loop with ***while*** and ***until*** in Ruby?
 
 **A:**  
-- while Loop: Loops while the condition is truthy.
+- ***while*** Loop: Loops while the condition is truthy.
   ```ruby
   counter = 0
   while counter < 5
@@ -68,7 +69,7 @@ end
     counter += 1
   end
   ```
-- until Loop: Loops until the condition becomes truthy.
+- ***until*** Loop: Loops until the condition becomes truthy.
   ```ruby
   counter = 0
   until counter == 5
@@ -80,17 +81,17 @@ end
 
 ## Flashcard 6  
 **Q:**  
-- How do logical operators && and || work?
+- How do logical operators ***&&*** and ***||*** work?
 
 **A:**  
-- && (AND): Both conditions must be true.
-- || (OR): At least one condition must be true.
+- ***&&*** (AND): Both conditions must be true.
+- ***||*** (OR): At least one condition must be true.
 
 ---
 
 ## Flashcard 7  
 **Q:**  
-- How do you iterate over an array using each?
+- How do you iterate over an array using ***each***?
 
 **A:**  
 ```ruby
@@ -106,10 +107,10 @@ end
 - How do you iterate over an array using each?
 
 **A:**  
-- Append: array << "element"
-- Delete by value: array.delete("value")
-- Delete by index: array.delete_at(index)
-- Query size: array.size or array.count
+- Append: ***array << "element"***
+- Delete by value: ***array.delete("value")***
+- Delete by index: ***array.delete_at(index)***
+- Query size: ***array.size*** or ***array.count***
 
 ---
 
@@ -129,5 +130,5 @@ do_something unless condition
 - How do you access and modify elements in an array?
 
 **A:**  
-- Access: array[index]
-- Modify: array[index] = new_value
+- Access: ***array[index]***
+- Modify: ***array[index] = new_value***
