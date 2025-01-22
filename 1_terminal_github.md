@@ -62,7 +62,7 @@
   ```bash
   cat <FILE_NAME>
   ```
-- <u>Tip</u>: Use ***code .*** to open the current folder in your text editor.
+- Tip: Use ***code .*** to open the current folder in your text editor.
 ---
 
 ## Flashcard 6 
